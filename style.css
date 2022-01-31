@@ -1,4 +1,7 @@
 nav {
+    display: flex;
     background-color: gray;
     margin: auto;
+    justify-content: center;
+    padding: 1rem;
 }
