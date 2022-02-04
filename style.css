@@ -1,7 +1,10 @@
 nav {
+    background-color: red;
     display: flex;
-    background-color: gray;
-    margin: auto;
-    justify-content: center;
+}
+nav a {
     padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
 }
