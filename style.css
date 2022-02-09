@@ -1,3 +1,6 @@
+body {
+    margin-bottom: 0%;
+}
 a {
     text-decoration: none;
 }
@@ -53,4 +56,40 @@ body {
 main {
     font-family: 'Archivo', sans-serif;
 }
-
+.kort1 {
+    width: 12rem;
+    border: solid 1px black;
+    height: 24.5rem;
+    margin: 1rem;
+}
+.kort1 img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.kort1 p {
+    display: flex;
+    justify-content: center;
+}
+.titel1 {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.kort1text {
+    display: flex;
+    justify-content: center;
+}
+.tillbehör1 {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+footer {
+    background-color: gray;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+footer div {
+    max-width: 12rem;
+}
