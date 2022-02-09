@@ -1,12 +1,14 @@
+a {
+    text-decoration: none;
+}
 nav {
-    display: flex;
     background-color: rgb(22, 22, 22);
     height: 5rem;
+    display: flex;
     align-items: center;
 }
 nav a {
     padding: 1rem;
-    text-decoration: none;
     color: whitesmoke;
 }
 .logo {
@@ -24,7 +26,31 @@ body {
     margin-left: 0%;
     margin-right: 0%;
 }
-.bild1 img {
-    max-width: 100%;
-    max-height: 100%;
+.huvudbild1 {
+    background-image: url("pexels-andrea-piacquadio-920382.jpg");
+    background-size: cover;
+    min-height: 36rem;
 }
+.bild1 {
+    color: #fff;
+    padding: 1rem;
+    font-size: 3rem;
+}
+.köpte1 {
+    display: inline-block;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #ffffff;
+    margin-left: 1rem;
+}
+.köpte1 a {
+    color: rgb(0, 0, 0);
+}
+main {
+    font-family: 'Archivo', sans-serif;
+}
+
