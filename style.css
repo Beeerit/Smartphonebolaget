@@ -213,3 +213,25 @@ aside img {
     justify-content: center;
     padding: 1rem;
 }
+.omossmain {
+    background-color: #fff;
+    background-image: url(pexels-mart-production-7709110.jpg);
+    min-height: 36rem;
+    background-size: cover;
+    width: 100%;
+}
+.bild2 {
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.supportsida {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: black 1px solid;
+}
+.omosssupport {
+    padding: 3rem;
+}
