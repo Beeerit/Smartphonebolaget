@@ -6,6 +6,7 @@ nav {
     min-height: 5rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 nav a {
     padding: 1rem;
@@ -19,6 +20,19 @@ nav a {
 }
 .nav a:hover {
     background-color: rgb(83, 83, 83);
+}
+.sök {
+    background-color: gray;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-family: 'Archivo', sans-serif;
+}
+.sökfält {
+    margin-right: 1rem;
 }
 body {
     background-color: rgb(230, 230, 230);
@@ -57,7 +71,7 @@ main {
 .kort1 {
     max-width: 12rem;
     border: solid 1px black;
-    height: 24.5rem;
+    height: fit-content;
     margin: 1rem;
 }
 .kort1 img {
@@ -76,6 +90,7 @@ main {
 .kort1text {
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 .tillbehör1 {
     display: flex;
@@ -91,6 +106,10 @@ footer {
 }
 footer div { 
     max-width: 12rem;
+}
+footer h4 {
+    display: flex;
+    justify-content: center;
 }
 .titel2 {
     display: flex;
@@ -160,6 +179,9 @@ aside img {
     border: 0.5px solid black;
     border-radius: 20px;
     width: 7rem;
+}
+.valen :hover {
+    background-color: lightgrey;
 }
 .valen {
     margin-top: 5rem;
