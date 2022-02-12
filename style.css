@@ -95,6 +95,7 @@ main {
 }
 .tillbehör1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 1px solid black;
     padding-bottom: 2rem;
