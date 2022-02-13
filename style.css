@@ -257,6 +257,7 @@ aside img {
 }
 .supportsida {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     border-bottom: black 1px solid;
 }
